@@ -63,6 +63,9 @@ The figure shows the Training and Validation Loss vs Epoch for (a) With only ran
 
 To further improve the performance of the model, I made changes in the architecture to include more convolutional layers, changed filter size, and studies the effect of adding multiple layers before max pooling layer i.e., two 3x3 convolutional layers without spatial pooling in between would have an effective receptive field of 5x5, while three such layers would have effective receptive field of 7x7. I performed 4 different trials with different network architectures and compared the performance.
 
+
+![text](images/tg1.png)
+
 ### Training and Validation Loss with respect to Epochs
 
 The performance of network architecture is shown in the training loss and validation loss curve for each trial. Since, adding more layers on top of the pervious architecture (SimpleNet), will increase the number of parameters to be trained, hence, the loss curve for 10 epochs might not represent the actual performance. To check how the trained model is performing, I also trained it for another 20 epochs (total 30 epochs). The loss plot can be found in the notebook – “Assignment 1 Variation 2 - Architecture [Final]”
