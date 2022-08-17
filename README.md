@@ -6,7 +6,7 @@ Implementation of a convolutional neural network, SimpleNet in Python using Pyto
 
 Summary of network: 
 
-```---------------------------------------------------------------- 
+`---------------------------------------------------------------- 
 Layer (type)        Output            Shape Param
 ================================================================
 Conv2d-1        [-1, 64, 114, 114]      1,792 
@@ -27,4 +27,10 @@ Input size (MB): 0.59
 Forward/backward pass size (MB): 9.15
 Params size (MB): 21.81
 Estimated Total Size (MB): 31.55
-----------------------------------------------------------------```
+----------------------------------------------------------------`
+
+
+
+## Training and Validation Loss with respect to Epochs
+
+The network was trained on 10 epochs and below is the training and validation loss values with respect to epochs.
